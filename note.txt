@@ -5,3 +5,42 @@ yarn add react-router-dom
 yarn add node-sass
 yarn add sass-loader
 yarn add lodash"
+yarn add  = npm i
+
+npm i axios: thư viện để gọi API
+npm i redux-thunk: để có thể gọi API ở một file riêng, dễ dàng quản lý sau này
+npm i formik yup : thư viện để quản lý form một cách dễ dàng và hiệu quả
+
+nextjs để render server-side
+
+client-side va server-side la gi
+
+15/04/2021
+- Học về cách chia trang khi bấm vào thông tin mỗi bộ phim (giống như TIX)
+- color-hex
+- google form ccs, code-pen
+
+
+
+Các bước thực hiện một chức năng trong React:
+1. Xây dựng giao diện
+2. Xác định nguồn dữ liệu thay đổi và tổ chức state
+reducer riêng của component => rootReducer => binding dữ liệu về giao diện
+
+
+3. Xử lý chức năng logic: nên dùng theo Hooks
+
+
+
+Tổng hợp các kiến thức react đã Học
+- React là thư viện xây dựng ứng dụng web = js phiên bản ES6 dựa trên cấu trúc Component
+- Xử lý sự kiện, binding dữ liệu trong react
+- Quản lý state? State là gì, props là gì?
+- Sử dụng Redux để quản lý state:
+  - Middleware ( đối với các action cần sử dụng API)
+  - Action, Reducer
+- Lấy dữ liệu từ người dùng (form, validation), useFormik, Yup
+- Lifecycle(didMount, didUpdate, willMount,pureComponent) và hooks(useState, useSelector,useDispatch, useEffect)
+- Routing React (Sử dụng thẻ Navlink, chia route, cấu hình template)
+- Authorization (Định danh người dùng qua headers của API)
+- Ant Design, thư viện UI (material), react
